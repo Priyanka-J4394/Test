@@ -1,0 +1,36 @@
+E. Additional fees spreadsheet does not automatically calculate totals based on volumes.
+  Manual calculation must be done to establish prices in the spreadsheet after extract. 
+  Request to have these calculations done automatically (see report example ADDITIONAL FEES SPREADSHEET)
+
+-Ans-->Additional fee Extract level changing totalcost=totalfee*volume
+
+D. Current state “Additional Fees” extract does not show who requested the listed requests 
+   so if there are errors or confusion surrounding a request it is not easy to determine
+   who submitted the request to get clarity – asking there’s some sort of tracer on the report
+   of who submitted (see report example ADDITIONAL FEES SPREADSHEET)
+
+ANS--->Enteredby=employeedID
+
+F. Current state “Print Extract” the only way you can tell what is being requested is the
+  item will be listed in bold making it hard to truly tell what is being requested –
+  if this can be enhanced or updated in someway the LOB would be appreciative 
+ (see report example PRINT EXTRACT 9 PAGES for only one line of edits)
+
+ANS-->changelog table level maintain the information to 9 pages for only one line
+
+B. Currently there is no validation of criteria entered into form “new analysis account”
+  for Acct Number – if this number is entered wrong it cannot be edited – LOB asking for some
+ form of validation based on ACCOUNT NUMBER entered or a way to go back and edit once form has been submitted
+
+ANS-->we are working Account Number validation 
+
+A. Analysis Account List shows a listing of all analysis customers but is not used –
+   Analysis Account Lookup is used – not necessarily an enhancement but is noted that the analysis
+   account list is not a useful function
+
+ANS--> we are Analysis Account Lookup working in this functionality
+
+1) DEV link level folder path need to create(additionalfee extract and invoice payment extract)
+
+
+2)roles are not added in DB level
